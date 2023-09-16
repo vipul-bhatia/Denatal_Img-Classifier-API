@@ -37,7 +37,7 @@ starlette==0.27.0
 tensorboard==2.13.0
 tensorboard-data-server==0.7.1
 tensorflow==1.8.0
-tensorflow-estimator==2.13.0rc0
+tensorflow-estimator==1.8.0
 tensorflow-hub==0.13.0
 tensorflow-macos==2.13.0rc2
 termcolor==2.3.0
