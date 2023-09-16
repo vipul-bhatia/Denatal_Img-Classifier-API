@@ -12,12 +12,12 @@ def load_model(model_path):
     model = tf.keras.models.load_model(model_path,
                                       custom_objects={'KerasLayer': hub.KerasLayer})
     return model
-
 model_path = f"{BASE_DIR}/abc-{__version__}.h5"
 model = load_model(model_path)
 
 
 classes = ['Gingivitis', 'Mouth_Ulcer', 'Calculus', 'Tooth_discoloration', 'Caries', 'hypodontia']
+# calucus , hypodontia
 
 def predict(image):
     image = tf.image.resize(image, [224, 224])
